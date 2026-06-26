@@ -1,0 +1,60 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_carrier",
+  "display_name": "Carrier Sound Pack",
+  "version": "1.0.0",
+  "description": "Carrier sounds from Star Craft: Brood War",
+  "author": {
+    "name": "lastexile0",
+    "github": "lastexile0"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "tags": ["gaming", "starcraft", "blizzard", "rts"],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "Carrier_Arrived.WAV", "label": "Carrier has arrived!" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "Gauju.WAV", "label": "Gau'ju!" },
+        { "file": "Kokaltulah.WAV", "label": " Kokal'tulah!" },
+        { "file": "LohKlahs.WAV", "label": "Loh'Khlas?" },
+	      { "file": "Ischknu.WAV", "label": "Ischk'nu?" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "Death1.WAV", "label": "Exploding" },
+        { "file": "Death2.WAV", "label": "Exploding variant" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "Instructions.WAV", "label": "Instructions." },
+        { "file": "Your_Command.WAV", "label": "Your command?" },
+        { "file": "Command_Or_Relieved.WAV", "label": "Command, or you will be relieved!" },
+        { "file": "Still_You_Procrastinate.WAV", "label": "And still you procrastinate?" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "Enemies_Are_Legion.WAV", "label":  "Our enemies are legion!" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "Affirmative.WAV", "label": "Affirmative."},
+        { "file": "Commencing.WAV", "label": "Commencing." },
+        { "file": "Interceptor_Launch.WAV", "label": "Interceptor Launch" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "Not_Idle_Threat.WAV", "label":  "This is not an idle threat!" }
+      ]
+    }
+  }
+}
